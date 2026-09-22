@@ -1,0 +1,15 @@
+{
+  "title": "Merge the Tools!",
+  "title_slug": "merge-the-tools",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/merge-the-tools/problem",
+  "tags": [],
+  "description": "Consider the following:\n\n* A string, , of length  where .\n\n* An integer, , where  is a factor of .\n\nWe can split  into  substrings where each subtring, , consists of a contiguous block of  characters in . Then, use each  to create string  such that:\n\n* The characters in  are a subsequence of the characters in .\n\n* Any repeat occurrence of a character is removed from the string such that each character in  occurs exactly once. In other words, if the character at some index  in  occurs at a previous index  in , then do not include the character in string .\n\nGiven  and , print  lines where each line  denotes string .\n\n**Example** **\n\nThere are three substrings of length  to consider: 'AAA', 'BCA' and 'DDE'.  The first substring is all 'A' characters, so .  The second substring has all distinct characters, so .  The third substring has  different characters, so .  Note that a subsequence maintains the original order of characters encountered.  The order of characters in each subsequence shown is important.\n\nFunction Description**\n\nComplete the *merge_the_tools* function in the editor below.\n\n*merge_the_tools* has the following parameters:\n\n* *string s:* the string to analyze\n\n* *int k:* the size of substrings to analyze\n\n**Prints**\n\nPrint each subsequence on a new line.  There will be  of them.  No return value is expected.\n\n**Input Format**\n\nThe first line contains a single string, . **\nThe second line contains an integer, , the length of each substring.\n\nConstraints**\n\n* , where  is the length of\n\n*\n\n* It is guaranteed that  is a multiple of .\n\n**Sample Input**\n\n```\nSTDIN       Function\n-----       --------\nAABCAAADA   s = 'AABCAAADA'\n3           k = 3\n\n```\n\n**Sample Output**\n\n```\nAB\nCA\nAD\n\n```\n\n**Explanation**\n\nSplit  into  equal parts of length . Convert each  to  by removing any subsequent occurrences of non-distinct characters in :\n\n*\n\n*\n\n*\n\nPrint each  on a new line.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T05:58:04.785Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "merge-the-tools"
+}
