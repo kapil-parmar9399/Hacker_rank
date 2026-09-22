@@ -1,0 +1,15 @@
+{
+  "title": "Mod Divmod",
+  "title_slug": "python-mod-divmod",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/python-mod-divmod/problem",
+  "tags": [],
+  "description": "One of the built-in functions of Python is *divmod*, which takes two arguments  and  and returns a tuple containing the quotient of  first and then the remainder .\n\nFor example:\n\n```\n>>> print divmod(177,10)\n(17, 7)\n\n```\n\nHere, the integer division is `177/10 => 17` and the modulo operator is `177%10 => 7`.\n\n**Task** **\nRead in two integers,  and , and print three lines.\n\nThe first line is the integer division  (While using Python2 remember to import `division` from `__future__`).\n\nThe second line is the result of the modulo operator: .\n\nThe third line prints the *divmod* of  and .\n\nInput Format** **\nThe first line contains the first integer, , and the second line contains the second integer, .\n\nOutput Format** **\nPrint the result as described above.\n\nSample Input**\n\n```\n177\n10\n\n```\n\n**Sample Output**\n\n```\n17\n7\n(17, 7)\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:25:15.067Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-mod-divmod"
+}
