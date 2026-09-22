@@ -1,0 +1,15 @@
+{
+  "title": "Far Vertices",
+  "title_slug": "far-vertices",
+  "difficulty": "Hard",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/far-vertices/problem",
+  "tags": [],
+  "description": "You are given a tree that has N vertices and N-1 edges. Your task is to mark as small number of vertices as possible, such that, the maximum distance between two unmarked vertices is less than or equal to K. Output this value.\nDistance between two vertices i and j is defined as the minimum number of edges you have to pass in order to reach vertex i from vertex j.\n\n**Input Format** **\nThe first line of input contains two integers N and K. The next N-1 lines contain two integers (ui,vi) each, where 1 <= ui,vi <= N. Each of these lines specifies an edge.\n\nN is no more than 100. K is less than N.\n\nOutput Format** **\nPrint an integer that denotes the result of the test.\n\nSample Input:**\n\n```\n5 1\n1 2\n1 3\n1 4\n1 5\n\n```\n\n**Sample Output:**\n\n```\n3\n\n```\n\n**Sample Input:**\n\n```\n5 2\n1 2\n1 3\n1 4\n1 5\n\n```\n\n**Sample Output:**\n\n```\n0\n\n```\n\n**Explanation:**\n\nIn the first case you have to mark at least 3 vertices, and in the second case you don't need to mark any vertices.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T05:49:43.532Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "far-vertices"
+}
