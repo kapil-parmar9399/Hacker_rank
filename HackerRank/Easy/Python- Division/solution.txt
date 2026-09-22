@@ -1,0 +1,17 @@
+// HackerRank Problem: Python: Division
+// Link: https://www.hackerrank.com/challenges/python-division/problem
+// Difficulty: Easy
+// Language: pypy3
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+# a ==4
+# b == 3
+print(int(a//b))
+print(float(a/b))
+
+# c == 6564424525
+# d == 323252462
+# print(int(c/d))
+# print(float(c/d))
