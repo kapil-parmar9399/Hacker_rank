@@ -1,0 +1,15 @@
+{
+  "title": "Capitalize!",
+  "title_slug": "capitalize",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/capitalize/problem",
+  "tags": [],
+  "description": "You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, `alison heck` should be capitalised correctly as `Alison Heck`.\n\nGiven a full name, your task is to *capitalize* the name appropriately.\n\n**Input Format**\n\nA single line of input containing the full name, .\n\n**Constraints**\n\n*\n\n* The string consists of alphanumeric characters and spaces.\n\n**Note:** in a word only the first character is capitalized. Example 12abc when capitalized remains 12abc.\n\n**Output Format**\n\nPrint the capitalized string, .\n\n**Sample Input**\n\n```\nchris alan\n\n```\n\n**Sample Output**\n\n```\nChris Alan\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T05:58:45.539Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "capitalize"
+}
