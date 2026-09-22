@@ -1,0 +1,15 @@
+{
+  "title": "Power - Mod Power",
+  "title_slug": "python-power-mod-power",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/python-power-mod-power/problem",
+  "tags": [],
+  "description": "So far, we have only heard of Python's powers. Now, we will witness them!\n\nPowers or exponents in Python can be calculated using the built-in power function. Call the power function  as shown below:\n\n```\n>>> pow(a,b)\n\n```\n\nor\n\n```\n>>> a**b\n\n```\n\nIt's also possible to calculate .\n\n```\n>>> pow(a,b,m)\n\n```\n\nThis is very helpful in computations where you have to print the resultant % mod.\n\n**Note**: Here,  and  can be floats or negatives, but, if a third argument is present,  cannot be negative.\n\n**Note**: Python has a math module that has its own *pow()*. It takes two arguments and returns a float. It is uncommon to use *math.pow()*.\n\n**Task** **\nYou are given three integers: , , and . Print two lines.\n\nOn the first line, print the result of *pow(a,b)*. On the second line, print the result of *pow(a,b,m)*.\n\nInput Format** **\nThe first line contains , the second line contains , and the third line contains .\n\nConstraints** **\n\nSample Input**\n\n```\n3\n4\n5\n\n```\n\n**Sample Output**\n\n```\n81\n1\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:32:59.586Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-power-mod-power"
+}
