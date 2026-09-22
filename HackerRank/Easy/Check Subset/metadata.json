@@ -1,0 +1,15 @@
+{
+  "title": "Check Subset",
+  "title_slug": "py-check-subset",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/py-check-subset/problem",
+  "tags": [],
+  "description": "You are given two sets,  and . **\nYour job is to find whether set  is a subset of set .\n\nIf set  is subset of set , print True**.**\nIf set  is not a subset of set , print False**.\n\n**Input Format**\n\nThe first line will contain the number of test cases, . **\nThe first line of each test case contains the number of elements in set .\n\nThe second line of each test case contains the space separated elements of set .\n\nThe third line of each test case contains the number of elements in set .\n\nThe fourth line of each test case contains the space separated elements of set .\n\nConstraints**\n\n*\n\n*\n\n**Output Format**\n\nOutput **True** or **False** for each test case on separate lines.\n\n**Sample Input**\n\n```\n3\n5\n1 2 3 5 6\n9\n9 8 5 6 3 2 1 4 7\n1\n2\n5\n3 6 5 4 1\n7\n1 2 3 5 6 8 9\n3\n9 8 2\n\n```\n\n**Sample Output**\n\n```\nTrue\nFalse\nFalse\n\n```\n\n**Explanation**\n\n**Test Case 01 Explanation**\n\nSet  = {1 2 3 5 6}\n\nSet  = {9 8 5 6 3 2 1 4 7}\n\nAll the elements of set  are elements of set .\n\nHence, set  is a subset of set .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T05:47:41.476Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-check-subset"
+}
