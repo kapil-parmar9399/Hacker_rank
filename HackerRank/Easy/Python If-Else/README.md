@@ -78,38 +78,25 @@ Not Weird
 
 ## Solution
 
-```pypy3
-// HackerRank Problem: Python If-Else
-// Link: https://www.hackerrank.com/challenges/py-if-else/problem
-// Difficulty: Easy
-// Language: pypy3
+```python3
+# HackerRank Problem: Python If-Else
+# Link: https://www.hackerrank.com/challenges/py-if-else/problem
+# Difficulty: Easy
+# Language: python3
 
-#!/bin/python3
+n = int(input())
 
-import math
-import os
-import random
-import re
-import sys
-
-
-
-if __name__ == '__main__':
-    n = int(input().strip())
-if n==3:
+if n % 2 != 0:
     print("Weird")
-elif n==24:
-    print("Not Weird") 
-elif n==18:
-    print("Weird")     
-elif n==29:
-    print("Weird")      
-elif n==5:
+
+elif n >= 2 and n <= 5:
+    print("Not Weird")
+
+elif n >= 6 and n <= 20:
     print("Weird")
-elif n==20:
-    print("Weird")            
+
 else:
-    print("Not Weird")    
+    print("Not Weird")
 
 ```
 
