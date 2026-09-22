@@ -1,0 +1,15 @@
+{
+  "title": "Integers Come In All Sizes",
+  "title_slug": "python-integers-come-in-all-sizes",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem",
+  "tags": [],
+  "description": "Integers in Python can be as big as the bytes in your machine's memory. There is no limit in size as there is:  (c++ int) or  (C++ long long int).\n\nAs we know, the result of  grows really fast with increasing .\n\nLet's do some calculations on very large integers.\n\n**Task** **\nRead four numbers, , , , and , and print the result of .\n\nInput Format** **\nIntegers , , , and  are given on four separate lines, respectively.\n\nConstraints** **\n\nOutput Format** **\nPrint the result of  on one line.\n\nSample Input**\n\n```\n9\n29\n7\n27\n\n```\n\n**Sample Output**\n\n```\n4710194409608608369201743232\n\n```\n\n**Note**: This result is bigger than . Hence, it won't fit in the long long int of C++ or a 64-bit integer.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:35:36.932Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-integers-come-in-all-sizes"
+}
