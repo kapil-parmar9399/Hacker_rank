@@ -8,7 +8,7 @@
   "description": "There is an array of  integers. There are also  **disjoint sets**,  and , each containing  integers. You like all the integers in set  and dislike all the integers in set . Your initial happiness is . For each  integer in the array, if , you add  to your happiness. If , you add  to your happiness. Otherwise, your happiness does not change. Output your final happiness at the end.\n\n**Note:** Since  and  are sets, they have no repeated elements. However, the array might contain duplicate elements.\n\n**Constraints** **\n\nInput Format**\n\nThe first line contains integers  and  separated by a space. **\nThe second line contains  integers, the elements of the array.\n\nThe third and fourth lines contain  integers,  and , respectively.\n\nOutput Format**\n\nOutput a single integer, your total happiness.\n\n**Sample Input**\n\n```\n3 2\n1 5 3\n3 1\n5 7\n\n```\n\n**Sample Output**\n\n```\n1\n\n```\n\n**Explanation**\n\nYou gain  unit of happiness for elements  and  in set . You lose  unit for  in set . The element  in set  does not exist in the array so it is not included in the calculation.\n\nHence, the total happiness is .",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-23T05:48:28.482Z",
+  "synced_at": "2026-09-23T05:58:30.897Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "no-idea"
