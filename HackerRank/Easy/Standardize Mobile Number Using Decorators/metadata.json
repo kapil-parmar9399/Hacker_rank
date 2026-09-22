@@ -1,0 +1,15 @@
+{
+  "title": "Standardize Mobile Number Using Decorators",
+  "title_slug": "standardize-mobile-number-using-decorators",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/standardize-mobile-number-using-decorators/problem",
+  "tags": [],
+  "description": "Let's dive into decorators! You are given  mobile numbers. Sort them in ascending order then print them in the standard format shown below:**\n\n```\n+91 xxxxx xxxxx\n\n```\n\nThe given mobile numbers may have ,  or  written before the actual  digit number. Alternatively, there may not be any prefix at all.\n\nInput Format**\n\nThe first line of input contains an integer , the number of mobile phone numbers. **\n lines follow each containing a mobile number.\n\nOutput Format**\n\nPrint  mobile numbers on separate lines in the required format.\n\n**Sample Input**\n\n```\n3\n07895462130\n919875641230\n9195969878\n\n```\n\n**Sample Output**\n\n```\n+91 78954 62130\n+91 91959 69878\n+91 98756 41230\n\n```\n\n**Concept**\n\nLike most other programming languages, Python has the concept of closures. Extending these closures gives us decorators, which are an invaluable asset. You can learn about decorators in 12 easy steps [here](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/).\n\nTo solve the above question, make a list of the mobile numbers and pass it to a function that sorts the array in ascending order. Make a decorator that standardizes the mobile numbers and apply it to the function.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:47:13.137Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "standardize-mobile-number-using-decorators"
+}
