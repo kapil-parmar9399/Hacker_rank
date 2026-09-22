@@ -8,7 +8,7 @@
   "description": "You are given a set  and  other sets. **\nYour job is to find whether set  is a strict superset of each of the  sets.\n\nPrint `True`, if  is a *strict superset* of each of the  sets. Otherwise, print `False`.\n\nA strict superset has at least one element that does not exist in its subset.\n\nExample** **\nSet is a *strict superset* of set.\n\nSet is not a *strict superset* of set.\n\nSet is not a *strict superset* of set.\n\nInput Format**\n\nThe first line contains the space separated elements of set . **\nThe second line contains integer , the number of other sets.\n\nThe next  lines contains the space separated elements of the other sets.\n\nConstraints**\n\n*\n\n*\n\n*\n\n**Output Format**\n\nPrint `True` if set  is a *strict superset* of all other  sets. Otherwise, print `False`.\n\n**Sample Input 0**\n\n```\n1 2 3 4 5 6 7 8 9 10 11 12 23 45 84 78\n2\n1 2 3 4 5\n100 11 12\n\n```\n\n**Sample Output 0**\n\n```\nFalse\n\n```\n\n**Explanation 0**\n\nSet  is the *strict superset* of the set but not of the set because  is not in set .\n\nHence, the output is `False`.",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-23T05:47:35.640Z",
+  "synced_at": "2026-09-23T05:57:11.101Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "py-check-strict-superset"
