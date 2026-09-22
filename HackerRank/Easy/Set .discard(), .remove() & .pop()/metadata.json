@@ -1,0 +1,15 @@
+{
+  "title": "Set .discard(), .remove() & .pop()",
+  "title_slug": "py-set-discard-remove-pop",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem",
+  "tags": [],
+  "description": "**.remove(x)****\n\nThis operation removes element  from the set.\n\nIf element  does not exist, it raises a `KeyError`**.**\nThe *.remove(x)* operation returns `None`**.\n\n**Example**\n\n```\n>>> s = set([1, 2, 3, 4, 5, 6, 7, 8, 9])\n>>> s.remove(5)\n>>> print s\nset([1, 2, 3, 4, 6, 7, 8, 9])\n>>> print s.remove(4)\nNone\n>>> print s\nset([1, 2, 3, 6, 7, 8, 9])\n>>> s.remove(0)\nKeyError: 0\n\n```\n\n**.discard(x)****\n\nThis operation also removes element  from the set.\n\nIf element  does not exist, it does not** raise a `KeyError`.**\nThe *.discard(x)* operation returns `None`**.\n\n**Example**\n\n```\n>>> s = set([1, 2, 3, 4, 5, 6, 7, 8, 9])\n>>> s.discard(5)\n>>> print s\nset([1, 2, 3, 4, 6, 7, 8, 9])\n>>> print s.discard(4)\nNone\n>>> print s\nset([1, 2, 3, 6, 7, 8, 9])\n>>> s.discard(0)\n>>> print s\nset([1, 2, 3, 6, 7, 8, 9])\n\n```\n\n**.pop()****\n\nThis operation removes and return an arbitrary element from the set.\n\nIf there are no elements to remove, it raises a `KeyError`**.\n\n**Example**\n\n```\n>>> s = set([1])\n>>> print s.pop()\n1\n>>> print s\nset([])\n>>> print s.pop()\nKeyError: pop from an empty set\n\n```\n\n**Task****\n\nYou have a non-empty set , and you have to execute  commands given in  lines.\n\nThe commands will be *pop, remove* and *discard*.\n\nInput Format**\n\nThe first line contains integer , the number of elements in the set . **\nThe second line contains  space separated elements of set . All of the elements are non-negative integers, less than or equal to 9.\n\nThe third line contains integer , the number of commands.\n\nThe next  lines contains either *pop, remove* and/or *discard* commands followed by their associated value.\n\nConstraints**\n\n **\n\nOutput Format**\n\nPrint the sum of the elements of set  on a single line.\n\n**Sample Input**\n\n```\n9\n1 2 3 4 5 6 7 8 9\n10\npop\nremove 9\ndiscard 9\ndiscard 8\nremove 7\npop\ndiscard 6\nremove 5\npop\ndiscard 5\n\n```\n\n**Sample Output**\n\n```\n4\n\n```\n\n**Explanation**\n\nAfter completing these  operations on the set, we get *set*. Hence, the sum is .\n\n**Note**: Convert the elements of set *s* to *integers* while you are assigning them. To ensure the proper input of the set, we have added the first two lines of code to the editor.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T05:58:18.506Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-set-discard-remove-pop"
+}
