@@ -1,0 +1,15 @@
+{
+  "title": "Triangle Quest",
+  "title_slug": "python-quest-1",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/python-quest-1/problem",
+  "tags": [],
+  "description": "You are given a positive integer . Print a numerical triangle of height  like the one below:\n\n```\n1\n22\n333\n4444\n55555\n......\n\n```\n\nCan you do it using only **arithmetic operations, a single *for* loop and print statement?**\n\nUse no more than two lines. The first line (the *for* statement) is already written for you. You have to complete the print statement.\n\n**Note**: Using anything related to strings will give a score of .\n\n**Input Format** **\nA single line containing integer, .\n\nConstraints** **\n\nOutput Format** **\nPrint  lines as explained above.\n\nSample Input**\n\n```\n5\n\n```\n\n**Sample Output**\n\n```\n1\n22\n333\n4444\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:19:20.730Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-quest-1"
+}
