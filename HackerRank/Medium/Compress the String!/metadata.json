@@ -1,0 +1,15 @@
+{
+  "title": "Compress the String! ",
+  "title_slug": "compress-the-string",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/compress-the-string/problem",
+  "tags": [],
+  "description": "In this task, we would like for you to appreciate the usefulness of the *groupby()* function of *itertools* . To read more about this function, [Check this out](https://docs.python.org/2/library/itertools.html#itertools.groupby) .\n\nYou are given a string . Suppose a character '' occurs consecutively  times in the string. Replace these consecutive occurrences of the character '' with  in the string.\n\nFor a better understanding of the problem, check the explanation.\n\n**Input Format**\n\nA single line of input consisting of the string .\n\n**Output Format**\n\nA single line of output consisting of the modified string.\n\n**Constraints**\n\nAll the characters of  denote integers between  and .\n\n**Sample Input**\n\n```\n1222311\n\n```\n\n**Sample Output**\n\n```\n(1, 1) (3, 2) (1, 3) (2, 1)\n\n```\n\n**Explanation**\n\nFirst, the character  occurs only once. It is replaced by . Then the character  occurs three times, and it is replaced by  and so on.\n\nAlso, note the single space within each compression and between the compressions.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-24T07:04:38.584Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "compress-the-string"
+}
