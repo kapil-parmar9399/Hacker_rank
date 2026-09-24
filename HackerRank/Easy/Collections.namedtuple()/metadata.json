@@ -1,0 +1,15 @@
+{
+  "title": "Collections.namedtuple()",
+  "title_slug": "py-collections-namedtuple",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/py-collections-namedtuple/problem",
+  "tags": [],
+  "description": "### **[collections.namedtuple()](https://docs.python.org/2/library/collections.html#collections.namedtuple)**\n\nBasically, *namedtuples* are easy to create, lightweight object types. **\nThey turn tuples into convenient containers for simple tasks.\n\nWith *namedtuples*, you don’t have to use integer indices for accessing members of a tuple.\n\nExample**\n\n**Code 01**\n\n```\n>>> from collections import namedtuple\n>>> Point = namedtuple('Point','x,y')\n>>> pt1 = Point(1,2)\n>>> pt2 = Point(3,4)\n>>> dot_product = ( pt1.x * pt2.x ) +( pt1.y * pt2.y )\n>>> print dot_product\n11\n\n```\n\n**Code 02**\n\n```\n>>> from collections import namedtuple\n>>> Car = namedtuple('Car','Price Mileage Colour Class')\n>>> xyz = Car(Price = 100000, Mileage = 30, Colour = 'Cyan', Class = 'Y')\n>>> print xyz\nCar(Price=100000, Mileage=30, Colour='Cyan', Class='Y')\n>>> print xyz.Class\nY\n\n```\n\n**Task**\n\nDr. John Wesley has a spreadsheet containing a list of student's , ,  and .\n\nYour task is to help Dr. Wesley calculate the average marks of the students.\n\n**Note:\n\n1. Columns can be in any order. IDs, marks, class and name can be written in any order in the spreadsheet.\n\n2. Column names are `ID`, `MARKS`, `CLASS` and `NAME`. (The spelling and case type of these names won't change.)**\n\n**Input Format**\n\nThe first line contains an integer , the total number of students. **\nThe second line contains the names of the columns in any order.\n\nThe next  lines contains the , ,  and , under their respective column names.\n\nConstraints**\n\n**Output Format**\n\nPrint the average marks of the list corrected to 2 decimal places.\n\n**Sample Input**\n\n**TESTCASE 01**\n\n```\n5\nID         MARKS      NAME       CLASS\n1          97         Raymond    7\n2          50         Steven     4\n3          91         Adrian     9\n4          72         Stewart    5\n5          80         Peter      6\n\n```\n\n**TESTCASE 02**\n\n```\n5\nMARKS      CLASS      NAME       ID\n92         2          Calum      1\n82         5          Scott      2\n94         2          Jason      3\n55         8          Glenn      4\n82         2          Fergus     5\n\n```\n\n**Sample Output**\n\n**TESTCASE 01**\n\n```\n78.00\n\n```\n\n**TESTCASE 02**\n\n```\n81.00\n\n```\n\n**Explanation**\n\n**TESTCASE 01**\n\nAverage =\n\n*Can you solve this challenge in `4 lines of code or less`?* **\nNOTE**: There is `no penalty` for solutions that are correct but have more than 4 lines.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-25T06:53:13.786Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-collections-namedtuple"
+}
