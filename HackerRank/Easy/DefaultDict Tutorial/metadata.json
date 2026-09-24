@@ -1,0 +1,15 @@
+{
+  "title": "DefaultDict Tutorial",
+  "title_slug": "defaultdict-tutorial",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/defaultdict-tutorial/problem",
+  "tags": [],
+  "description": "The *defaultdict* tool is a container in the collections class of Python. It's similar to the usual dictionary (*dict*) container, but the only difference is that a defaultdict will have a *default* value if that key has not been set yet. If you didn't use a defaultdict you'd have to check to see if that key exists, and if it doesn't, set it to what you want. **\nFor example:**\n\n```\nfrom collections import defaultdict\nd = defaultdict(list)\nd['python'].append(\"awesome\")\nd['something-else'].append(\"not relevant\")\nd['python'].append(\"language\")\nfor i in d.items():\n    print i\n\n```\n\nThis prints:\n\n```\n('python', ['awesome', 'language'])\n('something-else', ['not relevant'])\n\n```\n\nIn this challenge, you will be given  integers,  and . There are  words, which might repeat, in word group . There are  words belonging to word group . For each   words, check whether the word has appeared in group  or not. Print the indices of each occurrence of  in group . If it does not appear, print .\n\n**Example**\n\nGroup A contains 'a', 'b', 'a'\nGroup B contains 'a', 'c'\n\nFor the first word in group B, 'a', it appears at positions  and  in group A.\nThe second word, 'c', does not appear in group A, so print .\n\nExpected output:\n\n```\n1 3\n-1\n\n```\n\n**Input Format**\n\nThe first line contains integers,  and  separated by a space. **\nThe next  lines contains the words belonging to group .\n\nThe next  lines contains the words belonging to group .\n\nConstraints**\n\n **\n\nOutput Format**\n\nOutput  lines. **\nThe  line should contain the -indexed positions of the occurrences of the  word separated by spaces.\n\nSample Input**\n\n```\nSTDIN   Function\n-----   --------\n5 2     group A size n = 5, group B size m = 2\na       group A contains 'a', 'a', 'b', 'a', 'b'\na\nb\na\nb\na       group B contains 'a', 'b'\nb\n\n```\n\n**Sample Output**\n\n```\n1 2 4\n3 5\n\n```\n\n**Explanation**\n\n**'a'** appeared  times in positions ,  and . **\n 'b'** appeared  times in positions  and . **\nIn the sample problem, if 'c'** also appeared in word group , you would print .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-25T05:57:09.361Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "defaultdict-tutorial"
+}
