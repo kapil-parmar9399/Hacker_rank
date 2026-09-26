@@ -8,7 +8,7 @@
   "description": "A newly opened multinational brand has decided to base their company logo on the three most common characters in the company name. They are now trying out various combinations of company names and logos based on this condition. Given a string , which is the company name in lowercase letters, your task is to find the top three most common characters in the string.\n\n* Print the three most common characters along with their occurrence count.\n\n* Sort in descending order of occurrence count.\n\n* If the occurrence count is the same, sort the characters in alphabetical order.\n\nFor example, according to the conditions described above,\n\n would have it's logo with the letters .\n\n**Input Format**\n\nA single line of input containing the string .\n\n**Constraints**\n\n*\n\n*  has at least  distinct characters\n\n**Output Format**\n\nPrint the three most common characters along with their occurrence count each on a separate line. **\nSort output in descending order of occurrence count.\n\nIf the occurrence count is the same, sort the characters in alphabetical order.\n\nSample Input 0**\n\n```\naabbbccde\n\n```\n\n**Sample Output 0**\n\n```\nb 3\na 2\nc 2\n\n```\n\n**Explanation 0**\n\nHere, *b* occurs  times. It is printed first.**\nBoth *a* and *c* occur  times. So, *a* is printed in the second line and *c* in the third line because *a* comes before *c* in the alphabet.\n\nNote**: The string  has at least  distinct characters.",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-27T02:44:47.059Z",
+  "synced_at": "2026-09-27T02:45:58.049Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "most-commons"
