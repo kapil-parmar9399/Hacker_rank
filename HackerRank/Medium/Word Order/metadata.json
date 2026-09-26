@@ -1,0 +1,15 @@
+{
+  "title": "Word Order",
+  "title_slug": "word-order",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/word-order/problem",
+  "tags": [],
+  "description": "You are given  words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.\n\n**Note:** Each input line ends with a **\"\\n\"** character.\n\n**Constraints:** **\n\nThe sum of the lengths of all the words do not exceed\n\nAll the words are composed of lowercase English letters only.\n\nInput Format**\n\nThe first line contains the integer, . **\nThe next  lines each contain a word.\n\nOutput Format**\n\nOutput  lines. **\nOn the first line, output the number of distinct words from the input.\n\nOn the second line, output the number of occurrences for each distinct word according to their appearance in the input.\n\nSample Input**\n\n```\n4\nbcdef\nabcdefg\nbcde\nbcdef\n\n```\n\n**Sample Output**\n\n```\n3\n2 1 1\n\n```\n\n**Explanation**\n\nThere are  distinct words. Here, **\"bcdef\"** appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are **\"bcdef\"**, **\"abcdefg\"** and **\"bcde\"** which corresponds to the output.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-26T23:30:52.065Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "word-order"
+}
