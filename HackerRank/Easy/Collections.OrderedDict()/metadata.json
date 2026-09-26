@@ -1,0 +1,15 @@
+{
+  "title": "Collections.OrderedDict()",
+  "title_slug": "py-collections-ordereddict",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/py-collections-ordereddict/problem",
+  "tags": [],
+  "description": "### [collections.OrderedDict](https://docs.python.org/2/library/collections.html#ordereddict-objects)\n\nAn *OrderedDict* is a dictionary that remembers the order of the keys that were inserted first. If a new entry overwrites an existing entry, the original insertion position is left unchanged.\n\n**Example**\n\n**Code**\n\n```\n>>> from collections import OrderedDict\n>>>\n>>> ordinary_dictionary = {}\n>>> ordinary_dictionary['a'] = 1\n>>> ordinary_dictionary['b'] = 2\n>>> ordinary_dictionary['c'] = 3\n>>> ordinary_dictionary['d'] = 4\n>>> ordinary_dictionary['e'] = 5\n>>>\n>>> print ordinary_dictionary\n{'a': 1, 'c': 3, 'b': 2, 'e': 5, 'd': 4}\n>>>\n>>> ordered_dictionary = OrderedDict()\n>>> ordered_dictionary['a'] = 1\n>>> ordered_dictionary['b'] = 2\n>>> ordered_dictionary['c'] = 3\n>>> ordered_dictionary['d'] = 4\n>>> ordered_dictionary['e'] = 5\n>>>\n>>> print ordered_dictionary\nOrderedDict([('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)])\n\n```\n\n**Task**\n\nYou are the manager of a supermarket. **\nYou have a list of  items together with their prices that consumers bought on a particular day.\n\nYour task is to print each `item_name` and `net_price` in order of its first occurrence.\n\n`item_name` = Name of the item.\n\n`net_price` = Quantity of the item sold multiplied by the price of each item.\n\nInput Format**\n\nThe first line contains the number of items, . **\nThe next  lines contains the item's name and price, separated by a space.\n\nConstraints**\n\n**Output Format**\n\nPrint the `item_name` and `net_price` in order of its first occurrence.\n\n**Sample Input**\n\n```\n9\nBANANA FRIES 12\nPOTATO CHIPS 30\nAPPLE JUICE 10\nCANDY 5\nAPPLE JUICE 10\nCANDY 5\nCANDY 5\nCANDY 5\nPOTATO CHIPS 30\n\n```\n\n**Sample Output**\n\n```\nBANANA FRIES 12\nPOTATO CHIPS 60\nAPPLE JUICE 20\nCANDY 20\n\n```\n\n**Explanation**\n\n*BANANA FRIES*: Quantity bought: , Price:\n\n`Net Price`:\n\n*POTATO CHIPS*: Quantity bought: , Price:\n\n`Net Price`:\n\n*APPLE JUICE*: Quantity bought: , Price:\n\n`Net Price`:\n\n*CANDY*: Quantity bought: , Price:\n\n`Net Price`:",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-26T19:33:07.981Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-collections-ordereddict"
+}
