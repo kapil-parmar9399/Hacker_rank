@@ -55,25 +55,23 @@ Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence an
 # Difficulty: Medium
 # Language: python3
 
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        seen = []
-        max_length = 0
-        left = 0
+        longest = ""
+        count = 0
 
-        for right in range(len(s)):
-            while s[right] in seen:
-                seen.remove(s[left])
-                left += 1
+        for i in range(len(s)):
+            if s[i] not in longest:
+                longest = longest + s[i]
+            else:
+                index = longest.index(s[i])
+                longest = longest[index + 1:]
+                longest = longest + s[i]
 
-            seen.append(s[right])
+            count = max(count, len(longest))
 
-            length = right - left + 1
-
-            if length > max_length:
-                max_length = length
-
-        return max_length
+        return count
 ```
 
 ---
