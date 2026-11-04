@@ -11,25 +11,41 @@
 class Solution:
     def addTwoNumbers(self, l1, l2):
         dummy = ListNode(0)
-        curr = dummy
+        current = dummy
+
+        current1 = l1
+        current2 = l2
         carry = 0
 
-        for _ in range(100):
-            if l1 is None and l2 is None and carry == 0:
-                break
+        while current1 is not None or current2 is not None:
 
-            total = carry
+            val1 = 0
+            val2 = 0
 
-            if l1:
-                total += l1.val
-                l1 = l1.next
+            if current1 is not None:
+                val1 = current1.val
 
-            if l2:
-                total += l2.val
-                l2 = l2.next
+            if current2 is not None:
+                val2 = current2.val
 
-            carry = total // 10
-            curr.next = ListNode(total % 10)
-            curr = curr.next
+            total = val1 + val2 + carry
+
+            if total > 9:
+                carry = total // 10
+                total = total % 10
+            else:
+                carry = 0
+
+            current.next = ListNode(total)
+            current = current.next
+
+            if current1 is not None:
+                current1 = current1.next
+
+            if current2 is not None:
+                current2 = current2.next
+
+        if carry > 0:
+            current.next = ListNode(carry)
 
         return dummy.next
