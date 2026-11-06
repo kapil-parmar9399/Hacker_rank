@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 5",
+  "title_slug": "weather-observation-station-5",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-5/problem",
+  "tags": [],
+  "description": "Query the two cities in **STATION** with the shortest and longest *CITY* names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically. **\nThe STATION** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/9336/1449345840-5f0a551030-Station.jpg)\n\nwhere **LAT_N** is the northern latitude and **LONG_W** is the western longitude.\n\n**Sample Input**\n\nFor example, **CITY** has four entries: **DEF, ABC, PQRS** and **WXY**.\n\n**Sample Output**\n\n```\nABC 3\nPQRS 4\n\n```\n\n**Explanation**\n\nWhen ordered alphabetically, the **CITY** names are listed as **ABC, DEF, PQRS,** and **WXY**, with lengths  and . The longest name is **PQRS**, but there are  options for shortest named city.  Choose **ABC**, because it comes first alphabetically.\n\n**Note**\n\nYou can write two separate queries to get the desired output. It need not be a single query.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-06T16:22:14.369Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-5"
+}
