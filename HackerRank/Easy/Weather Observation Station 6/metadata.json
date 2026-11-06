@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 6",
+  "title_slug": "weather-observation-station-6",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-6/problem",
+  "tags": [],
+  "description": "Query the list of *CITY* names starting with vowels (i.e., `a`, `e`, `i`, `o`, or `u`) from **STATION**. Your result *cannot* contain duplicates.\n\n**Input Format**\n\nThe **STATION** table is described as follows:\n\n*\n\nwhere LAT_N* is the northern latitude and *LONG_W* is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-06T16:37:30.748Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-6"
+}
