@@ -8,7 +8,7 @@
   "description": "Query all attributes of every Japanese city in the **CITY** table. The **COUNTRYCODE** for Japan is `JPN`.\n\nThe **CITY** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-11-06T12:11:13.380Z",
+  "synced_at": "2026-11-06T12:11:59.766Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "japanese-cities-attributes"
