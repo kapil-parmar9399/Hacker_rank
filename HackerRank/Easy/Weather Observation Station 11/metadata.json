@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 11",
+  "title_slug": "weather-observation-station-11",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-11/problem",
+  "tags": [],
+  "description": "Query the list of *CITY* names from **STATION** that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.\n\n**Input Format**\n\nThe **STATION** table is described as follows:\n\n*\n\nwhere LAT_N* is the northern latitude and *LONG_W* is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-08T10:21:18.524Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-11"
+}
