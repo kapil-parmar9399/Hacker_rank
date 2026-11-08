@@ -1,0 +1,15 @@
+{
+  "title": "Type of Triangle",
+  "title_slug": "what-type-of-triangle",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/what-type-of-triangle/problem",
+  "tags": [],
+  "description": "Write a query identifying the *type* of each record in the **TRIANGLES** table using its three side lengths. Output one of the following statements for each record in the table:\n\n* **Equilateral**: It's a triangle with  sides of equal length.\n\n* **Isosceles**: It's a triangle with  sides of equal length.\n\n* **Scalene**: It's a triangle with  sides of differing lengths.\n\n* **Not A Triangle**: The given values of *A*, *B*, and *C* don't form a triangle.\n\n**Input Format**\n\nThe **TRIANGLES** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/12887/1443815629-ac2a843fb7-1.png)\n\nEach row in the table denotes the lengths of each of a triangle's three sides.\n\n**Sample Input**\n\n![](https://s3.amazonaws.com/hr-challenge-images/12887/1443815827-cbfc1ca12b-2.png)\n\n**Sample Output**\n\n```\nIsosceles\nEquilateral\nScalene\nNot A Triangle\n\n```\n\n**Explanation**\n\nValues in the tuple  form an Isosceles triangle, because .\n\nValues in the tuple  form an Equilateral triangle, because .\nValues in the tuple  form a Scalene triangle, because .\n\nValues in the tuple  cannot form a triangle because the combined value of sides  and  is not larger than that of side .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-08T04:12:43.453Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "what-type-of-triangle"
+}
