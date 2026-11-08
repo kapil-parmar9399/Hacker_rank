@@ -1,0 +1,15 @@
+{
+  "title": "Employee Salaries",
+  "title_slug": "salary-of-employees",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/salary-of-employees/problem",
+  "tags": [],
+  "description": "Write a query that prints a list of employee names (i.e.: the *name* attribute) for employees in **Employee** having a salary greater than  per month who have been employees for less than  months. Sort your result by ascending *employee_id*.\n\n**Input Format**\n\nThe **Employee** table containing employee data for a company is described as follows:\n\n*\n\nwhere employee_id* is an employee's ID number, *name* is their name, *months* is the total number of months they've been working for the company, and *salary* is the their monthly salary.\n\n**Sample Input**\n\n*\n\n**Sample Output**\n\n```\nAngela\nMichael\nTodd\nJoe\n\n```\n\n**Explanation**\n\nAngela* has been an employee for  month and earns  per month.\n\n*Michael* has been an employee for  months and earns  per month.\n\n*Todd* has been an employee for  months and earns  per month.\n\n*Joe* has been an employee for  months and earns  per month.\n\nWe order our output by ascending *employee_id*.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-08T13:19:49.870Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "salary-of-employees"
+}
