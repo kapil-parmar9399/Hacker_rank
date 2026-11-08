@@ -1,0 +1,15 @@
+{
+  "title": "Employee Names",
+  "title_slug": "name-of-employees",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/name-of-employees/problem",
+  "tags": [],
+  "description": "Write a query that prints a list of employee names (i.e.: the *name* attribute) from the **Employee** table in alphabetical order.\n\n**Input Format**\n\nThe **Employee** table containing employee data for a company is described as follows:\n\n*\n\nwhere employee_id* is an employee's ID number, *name* is their name, *months* is the total number of months they've been working for the company, and *salary* is their monthly salary.\n\n**Sample Input**\n\n![](https://s3.amazonaws.com/hr-challenge-images/19629/1458558202-9a8721e44b-ScreenShot2016-03-21at4.32.59PM.png)\n\n**Sample Output**\n\n```\nAngela\nBonnie\nFrank\nJoe\nKimberly\nLisa\nMichael\nPatrick\nRose\nTodd\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-08T13:17:28.707Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "name-of-employees"
+}
