@@ -1,0 +1,15 @@
+{
+  "title": "Average Population",
+  "title_slug": "average-population",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/average-population/problem",
+  "tags": [],
+  "description": "Query the average population for all cities in **CITY**, rounded *down* to the nearest integer.\n\n**Input Format**\n\nThe **CITY** table is described as follows:\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-09T17:11:51.820Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "average-population"
+}
