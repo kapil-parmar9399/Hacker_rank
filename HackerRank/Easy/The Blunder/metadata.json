@@ -1,0 +1,15 @@
+{
+  "title": "The Blunder",
+  "title_slug": "the-blunder",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/the-blunder/problem",
+  "tags": [],
+  "description": "Samantha was tasked with calculating the average monthly salaries for all employees in the **EMPLOYEES** table, but did not realize her keyboard's  key was broken until after completing the calculation. She wants your help finding the difference between her miscalculation (using salaries with any zeros removed), and the actual average salary.\n\nWrite a query calculating the amount of error (i.e.:  average monthly salaries), and round it up to the next integer.\n\n**Input Format**\n\nThe **EMPLOYEES** table is described as follows:\n\n*\n\n**Note:**  Salary* is per month.\n\n**Constraints**\n\n.\n\n**Sample Input**\n\n*\n\n**Sample Output**\n\n```\n2061\n\n```\n\n**Explanation**\n\nThe table below shows the salaries without zeros* as they were  entered by Samantha:\n\n*\n\nSamantha computes an average salary of . The actual* average salary is .\n\nThe resulting error between the two calculations is .  Since it is equal to the integer , it does not get rounded up.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-10T06:46:39.374Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "the-blunder"
+}
