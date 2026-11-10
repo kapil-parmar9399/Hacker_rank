@@ -1,0 +1,15 @@
+{
+  "title": "Top Earners",
+  "title_slug": "earnings-of-employees",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/earnings-of-employees/problem",
+  "tags": [],
+  "description": "We define an employee's *total earnings* to be their monthly  worked, and the *maximum total earnings* to be the maximum total earnings for any employee in the **Employee** table. Write a query to find the *maximum total earnings* for all employees as well as the total number of employees who have maximum total earnings. Then print these values as  space-separated integers.\n\n**Input Format**\n\nThe **Employee** table containing employee data for a company is described as follows:\n\n*\n\nwhere employee_id* is an employee's ID number, *name* is their name, *months* is the total number of months they've been working for the company, and *salary* is the their monthly salary.\n\n**Sample Input**\n\n*\n\n**Sample Output**\n\n```\n69952 1\n\n```\n\n**Explanation**\n\nThe table and earnings data is depicted in the following diagram:\n![](https://s3.amazonaws.com/hr-challenge-images/19631/1458559218-9f37585c7a-ScreenShot2016-03-21at4.49.23PM.png)\n\nThe maximum earnings* value is . The only employee with *earnings*  is *Kimberly*, so we print the maximum *earnings* value () and a count of the number of employees who have earned  (which is ) as two space-separated values.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-10T07:01:22.684Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "earnings-of-employees"
+}
