@@ -1,0 +1,15 @@
+{
+  "title": "Population Density Difference",
+  "title_slug": "population-density-difference",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/population-density-difference/problem",
+  "tags": [],
+  "description": "Query the difference between the maximum and minimum populations in **CITY**.\n\n**Input Format**\n\nThe **CITY** table is described as follows:\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-10T06:32:23.243Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "population-density-difference"
+}
