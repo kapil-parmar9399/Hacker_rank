@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 15",
+  "title_slug": "weather-observation-station-15",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-15/problem",
+  "tags": [],
+  "description": "Query the *Western Longitude* (*LONG_W*) for the largest *Northern Latitude* (*LAT_N*) in **STATION** that is less than . Round your answer to  decimal places.\n\n**Input Format**\n\nThe **STATION** table is described as follows:\n\n*\n\nwhere LAT_N* is the northern latitude and *LONG_W* is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-11T13:50:32.143Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-15"
+}
