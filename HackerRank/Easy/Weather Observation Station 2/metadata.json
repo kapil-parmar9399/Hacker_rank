@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 2",
+  "title_slug": "weather-observation-station-2",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-2/problem",
+  "tags": [],
+  "description": "Query the following two values from the **STATION** table:\n\n* The sum of all values in *LAT_N* rounded to a scale of  decimal places.\n\n* The sum of all values in *LONG_W* rounded to a scale of  decimal places.\n\n**Input Format**\n\nThe **STATION** table is described as follows:\n\n*\n\nwhere LAT_N* is the northern latitude and *LONG_W* is the western longitude.\n\n**Output Format**\n\nYour results must be in the form:\n\n```\nlat lon\n\n```\n\nwhere  is the sum of all values in *LAT_N* and  is the sum of all values in *LONG_W*. Both results must be rounded to a scale of  decimal places.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-11T12:41:54.429Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-2"
+}
