@@ -1,0 +1,15 @@
+{
+  "title": "African Cities",
+  "title_slug": "african-cities",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/african-cities/problem",
+  "tags": [],
+  "description": "Given the **CITY** and **COUNTRY** tables, query the names of all cities where the *CONTINENT* is *'Africa'*.\n\n**Note:** *CITY.CountryCode* and *COUNTRY.Code* are matching key columns.\n\n**Input Format**\n\nThe **CITY** and **COUNTRY** tables are described as follows:\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)\n\n![](https://s3.amazonaws.com/hr-challenge-images/8342/1449769013-e54ce90480-Country.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-12T18:28:18.172Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "african-cities"
+}
